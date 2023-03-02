@@ -1,0 +1,50 @@
+:root {
+    --mainRed: #ff3e00;
+}
+
+.container {
+    text-align: center;
+    padding: 1em;
+    max-width: 240px;
+    margin: 0 auto;
+    position: relative;
+
+    .logo {
+        display: none;
+    }
+
+    .title {
+        text-transform: uppercase;
+        font-size: 4em;
+        font-weight: 100;
+        margin: var(--spacing-l) 0;
+    }
+
+    .tutorialLink {
+        position: absolute;
+        right: var(--spacing-l);
+        top: var(--spacing-l);
+    }
+
+    @media (min-width: 640px) {
+        max-width: none;
+
+        .logo {
+            display: inline-block;
+            width: 200px;
+        }
+    }
+}
+
+/* make use of utility classes */
+.textRed {
+    color: var(--mainRed);
+}
+
+.bgRed {
+    background-color: var(--mainRed);
+}
+
+.bgBlue {
+    background-color: var(--ozBlue);
+}

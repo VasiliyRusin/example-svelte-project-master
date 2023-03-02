@@ -1,0 +1,22 @@
+/node_modules/
+*.log
+.history
+.env
+
+# vscode
+/**/.vscode/*
+!**/.vscode/launch.json
+
+# IntellijIdea files
+/**/.idea/*
+!**/.idea/runConfigurations
+/.vs
+
+# Distrib folders
+dist/
+**/dist/
+
+result/
+result.zip
+
+.DS_Store
