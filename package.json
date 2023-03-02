@@ -68,7 +68,7 @@
     "sirv-cli": "2.0.0",
     "svelte-i18n": "3.3.9",
     "swiper": "6.7.5",
-    "ua-parser-js": "1.0.2",
+    "ua-parser-js": "1.0.33",
     "ws": "8.10.0",
     "zip-a-folder": "1.1.5"
   }
